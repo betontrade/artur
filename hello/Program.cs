@@ -1,0 +1,2 @@
+﻿// run
+Console.WriteLine("App")

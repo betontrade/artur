@@ -1,13 +1,12 @@
-﻿
-Console.Write("Введите пожалуйста имя: ");
-string username = Console.ReadLine();
+﻿Console.Clear();
+int xa = 1, ya = 1,  xb = 20, yb = 1,  xc = 1,  yc = 30;
 
-if (username.ToLower() == "женя") 
-{
-    Console.WriteLine("Добрейший вечерочек Евгений");
-}
-else 
-{
+Console.SetCursorPosition(xa, ya);
+Console.WriteLine("+");
 
-    Console.WriteLine("Вы кто такие? Я вас не звал");
-}
+
+Console.SetCursorPosition(xb, yb);
+Console.WriteLine("+");
+
+Console.SetCursorPosition(xc, yc);
+Console.WriteLine("+");

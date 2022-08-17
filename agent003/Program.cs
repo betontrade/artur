@@ -1,6 +1,6 @@
 ﻿// Сложение двух чисел
 
-int number1 = 3;
+int number1 = new Random().Next (1 , 9999 );
 
 int number2 = 777;
 
